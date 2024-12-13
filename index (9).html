@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cut-Off Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>SSC GD Cut-Off Finder for west bengal</h1>
+        <form id="cutoff-form">
+            <label for="gender">Select Gender:</label>
+            <select id="gender" name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+
+            <label for="caste">Select Caste:</label>
+            <select id="caste" name="caste">
+                <option value="general">General</option>
+                <option value="ews">EWS</option>
+                <option value="sc">SC</option>
+                <option value="st">ST</option>
+                <option value="obc">OBC</option>
+            </select>
+
+            <label for="post">Select Post:</label>
+            <select id="post" name="post">
+                <option value="bsf">BSF</option>
+                <option value="cisf">CISF</option>
+                <option value="crpf">CRPF</option>
+                <option value="itbp">ITBP</option>
+                <option value="ssb">SSB</option>
+                <option value="ar">AR</option>
+            </select>
+
+            <button type="button" id="find-cutoff">Find Cut-Off</button>
+        </form>
+
+        <div id="result" class="result-container"></div>
+    </div>
+    <script src="script.js"></script>
+ <footer><div id="rahul"> presented by rahul</div></footer>
+</body>
+</html>
